@@ -1,0 +1,39 @@
+header{
+    background-color: #ffcc00;
+    margin:0px;
+    position: relative;
+    display: block;
+    border: none;
+}
+
+body, html{
+    margin: 0px;
+}
+
+#logo{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+
+#play-yellow{
+    position: block;
+    top: 0;
+    padding: 0;
+}
+
+
+.play-yellow{
+    max-width: 100%;
+    width: 100%;
+    min-height: 50rem;
+    height: 100vh;
+    display: block;
+}
+
+#container-purple{
+    background-color: #660099;
+}
