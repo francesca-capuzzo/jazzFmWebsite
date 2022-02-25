@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body, html{
+    margin: 0;
+    height: 100vh;
+    background-color: #ffcc00; 
+    font-family: 'Poppins', sans-serif;
+}
+.container-yellow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #ffcc00; 
+}
+
+.inner-yellow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#play-yellow{
+    align-self: stretch;
+}
+
+.play-yellow{
+    height: 100%;
+}
+
+.artist-yellow{
+    font-family: 'Poppins', sans-serif;
+}
+
+#now-playing{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#artist{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+#song{
+    margin-top: -5px;
+    font-size: 24px;
+}
+
+
+.inner-yellow2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -130px;
+    align-items: flex-start;
+}
+
+
+#title-yellow2{
+    
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: -4.25px;
+    line-height: 160px;
+    margin-left: 20px;
+    
+}
+
+#image-yellow2{
+    margin-top: -300px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+#list-yellow2{
+    display: flex;
+    flex-direction: column;
+}
+
+.ball{
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+h3{
+    margin-top: 190px;
+}
+
+#number1{
+    font-weight: 300;
+    font-size: 60px;
+    margin-right: 20px;
+    font-family:sans-serif;
+}
+
+#fm{
+    font-weight: 300;
+    font-size: 110px;
+    
+}
+/* .ball{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(0, 0, 0);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    border-bottom-left-radius: 256px;
+    border-bottom-right-radius: 256px;
+    border-top-left-radius: 256px;
+    border-top-right-radius: 256px;
+    box-sizing: border-box;
+    display: block;
+    height: 147.195px;
+    line-height: 20px;
+    margin-bottom: 148px;
+    margin-left: 239.469px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 147.195px;
+} */
+
+
+/*
+<div class="container-yellow">
+    <div class="inner-yellow2">
+        <div id="title-yellow2">
+            <h2>HOW TO <br> LISTEN <br> TO</h2>
+        </div>
+        <div id="image-yellow2">
+            <img src="./assets_letters-j.svg" alt="illustration">
+        </div>
+    </div>
+    <div id="list-yellow2">
+        <h3>
+            <span>1</span>
+                FM
+        </h3>
+        <div class="row-schedule">Braşov</div>
+        <div class="row-schedule">ONLINE</div>
+        <div class="row-schedule">Bucureşti</div>
+        <div class="row-schedule">ONLINE</div>
+        <div class="row-schedule">Cluj Napoca</div>
+        <div class="row-schedule">ONLINE</div>
+        <div class="row-schedule">Constanţa</div>
+        <div class="row-schedule">ONLINE</div>
+        <div class="row-schedule">Craiova</div>
+        <div class="row-schedule">ONLINE</div>
+        <div class="row-schedule">Iaşi</div>
+        <div class="row-schedule">ONLINE</div>
+        <div class="row-schedule">Oradea</div>
+        <div class="row-schedule">ONLINE</div>
+        <div class="row-schedule">Timişoara</div>
+        <div class="row-schedule">ONLINE</div>
+        <div class="row-schedule">Sibiu</div>
+        <div class="row-schedule">ONLINE</div>
+    </div>
+</div> */

@@ -23,7 +23,8 @@ body, html{
 
 
 #play-yellow{
-    position: block;
+    display: block;
+    height: 100%;
     top: 0;
     padding: 0;
 }
