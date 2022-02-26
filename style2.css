@@ -213,29 +213,55 @@ body, html{
     margin-left: 20px;
     margin-bottom: -20px;
 }
+
+
+.inner-main4{
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.schedule5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title4{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
 /* 
-<div class="container-yellow3">
-<div class="list-yellow3">
-    <h3>
-        <span id="number2">2</span>
-        <span id="online">ONLINE</span>
-    </h3>
-    <div class="schedule3">
-        <div class="schedule3" id="schedule-top3">
-            <div class="row-web">jazzfm.ro</div>
-            <img class="arrow" src="./assets_2_arrow-top.svg" alt="arrow-top">
+<div id="main4">
+<div>
+    <div>
+        <h3 id="third-h3">
+            <span id="number3">3</span>
+            <span id="devices">Devices</span>
+        </h3>
+    </div>
+    <div class="schedule6">
+        <div class="schedule5" id="schedule-top4">
+            <div class="row-device">Apple Siri</div>
+            <div class="phrase">"HEY SIRI, PLAY JAZZ FM ROMANIA!"</div>
         </div>
-        <div class="schedule3">
-            <div class="row-web">TuneIn</div>
-            <img class="arrow" src="./assets_2_arrow-top-r.svg" alt="arrow-top">
+        <div class="schedule5">
+            <div class="row-device">Google Home</div>
+            <div class="phrase">"OK GOOGLE, PLAY JAZZ FM ROMANIA!"</div>                
         </div>
-        <div class="schedule3">
-            <div class="row-web">Streema</div>
-            <img class="arrow" src="./assets_2_arrow-top-r.svg" alt="arrow-top">
+        <div class="schedule5">
+            <div class="row-device">Amazon Echo</div>
+            <div class="phrase">"ALEXA, PLAY JAZZ FM ROMANIA!"</div>                
         </div>
     </div>
-</div>
-<div class="image3">
-    <img src="./assets_letters-a.svg" alt="letter-a">
 </div>
 </div> */
