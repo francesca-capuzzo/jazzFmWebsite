@@ -3,7 +3,7 @@
 body, html{
     margin: 0;
     height: 100vh;
-    background-color: #ffcc00; 
+    background-color: white; 
     font-family: 'Poppins', sans-serif;
 }
 
@@ -12,7 +12,6 @@ body, html{
     flex-direction: row;
     justify-content: space-between;
     height: 100vh;
-    background-color: #ffcc00; 
     box-sizing: border-box;
 }
 
@@ -214,6 +213,9 @@ body, html{
     margin-bottom: -20px;
 }
 
+#main4{
+    padding-bottom: 200px;
+}
 
 .inner-main4{
     display: flex;
@@ -224,44 +226,91 @@ body, html{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: -30px;
+    margin-bottom: 40px;
 }
 
 .schedule5{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    line-height: 40px;
+    height: 120px;
+    border-bottom: 1px solid black;
+    align-items: center;
 }
 
 .title4{
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+
+#number3{
+    font-size: 60px;
+    font-weight: 300;
+    margin-right: 30px;
+}
+
+#devices{
+    font-size: 110px;
+    font-weight: 300;
+}
+
+.row-device{
+    font-size: 90px;
+    margin-left: 20px;
+}
+
+.phrase{
+    font-size: 30px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#schedule-top4{
+    border-top: 1px solid black;
+}
+
+.image4-inner{
+    width: 600px;
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.image4{
+    margin-left: 20px;
 }
 
 
+.inner-schedule2-div{
+    width: 415px;
+    justify-content: left;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    
+}
+#schedule-top5{
+    border-top: 1px solid rgb(204, 204, 204);
+    margin-top: -10px;
+}
+.row-time{
+    margin-right: 40px;
+}
+
+.date{
+    font-size: 110px;
+    font-weight: 300;
+}
+
+.list-yellow4{
+    margin-top: 290px;
+}
 
 
-/* 
-<div id="main4">
-<div>
-    <div>
-        <h3 id="third-h3">
-            <span id="number3">3</span>
-            <span id="devices">Devices</span>
-        </h3>
-    </div>
-    <div class="schedule6">
-        <div class="schedule5" id="schedule-top4">
-            <div class="row-device">Apple Siri</div>
-            <div class="phrase">"HEY SIRI, PLAY JAZZ FM ROMANIA!"</div>
-        </div>
-        <div class="schedule5">
-            <div class="row-device">Google Home</div>
-            <div class="phrase">"OK GOOGLE, PLAY JAZZ FM ROMANIA!"</div>                
-        </div>
-        <div class="schedule5">
-            <div class="row-device">Amazon Echo</div>
-            <div class="phrase">"ALEXA, PLAY JAZZ FM ROMANIA!"</div>                
-        </div>
-    </div>
-</div>
-</div> */
+/* .weekly{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+} */
