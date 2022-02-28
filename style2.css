@@ -148,11 +148,10 @@ body, html{
     display: block;
     position: relative;
     height: 100vh;
-    overflow:scroll;
 }
 
 .container-yellow3{
-    margin-top: 100px;
+    padding-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -286,7 +285,7 @@ body, html{
 
 
 .inner-schedule2-div{
-    width: 415px;
+    width: 410px;
     justify-content: left;
     border-bottom: 1px solid rgb(204, 204, 204);
     
@@ -305,12 +304,33 @@ body, html{
 }
 
 .list-yellow4{
-    margin-top: 290px;
+    padding-top: 290px;
 }
 
 
-/* .weekly{
+.weekly{
     display: flex;
     flex-direction: row;
     margin-left: 0px;
-} */
+    margin-left: 20px;
+    margin-top: -350px;
+}
+
+
+#weekly-wed, #weekly-sun{
+    margin-left: 20px;
+}
+
+#weekly-thu{
+    margin-left: 37%;
+    margin-top: -250px;
+}
+
+#weekly-fri{
+    margin-left: 65%;
+    margin-top: -250px;
+}
+
+.weekly-end{
+    margin-top: -250px;
+}
